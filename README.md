@@ -15,24 +15,24 @@
 ### Step 1 — Extract the hash
 Uploaded `My Locked PDF1.pdf` to the Hash Calculator, which produced the crackable `$pdf$...` hash.
 
-![Hash extracted](screenshots/module2-01-hash-extracted.png)
+![Hash extracted](module2-01-hash-extracted.png)
 
 ### Step 2 — First attempt fails (built-in wordlist too small)
 Running the Password Cracker's built-in 100-word list exhausted with no match.
 
-![Built-in wordlist fails](screenshots/module2-02-builtin-wordlist-fail.png)
+![Built-in wordlist fails](module2-02-builtin-wordlist-fail.png)
 
 ### Step 3 — Retry with a larger wordlist
 Uploaded a larger custom wordlist (3,630 words) via the "Upload wordlist (.txt)" option. The password cracked successfully.
 
-![Password cracked](screenshots/module2-03-password-cracked.png)
+![Password cracked](module2-03-password-cracked.png)
 
 **Cracked password:** `good-luck`
 
 ### Step 4 — Unlock the PDF and capture the flag
 Opened the PDF with the cracked password and captured Flag1.
 
-![Flag captured](screenshots/module2-04-flag-captured.png)
+![Flag captured](module2-04-flag-captured.png)
 
 **Flag1:** `nw{cybersecurity_flag_captured_2608}`
 
@@ -47,14 +47,14 @@ Opened the PDF with the cracked password and captured Flag1.
 ### Step 1 — Successful hash extraction and crack
 After resolving the setup issues described below, `pdf2john` produced a valid hash, and John the Ripper cracked it against `rockyou.txt`.
 
-![Password cracked](screenshots/module1-06-password-cracked.png)
+![Password cracked](module1-06-password-cracked.png)
 
 **Cracked password:** `password1`
 
 ### Step 2 — Unlock the PDF and capture the flag
 Opened the PDF with the cracked password and captured Flag1.
 
-![Flag captured](screenshots/module1-07-flag-captured.png)
+![Flag captured](module1-07-flag-captured.png)
 
 **Flag1:** `nw{networkwalks_flag1_jtr_270521_1}`
 
